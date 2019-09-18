@@ -22,8 +22,11 @@ class App extends React.Component {
   render() {
     return (
         <>
+          <p>happy</p>
           <Form handleFormUpdate={this.handleFormUpdate} />
           <Message messageText={this.state.messageText}/>
+          <Message messageText={this.state.count}/>
+
         </>
     );
   }
